@@ -1,0 +1,16 @@
+%nav#navbar.site-navbar.navbar.navbar-static-top{:role => "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle{"data-target" => "#navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %i.fa.fa-bars
+      %h1.navbar-brand
+
+        %a{:style => "font-size: 35px", :href => "/"}
+          = image_tag "logo_handwriting.png", height: 55, id: "logo"
+    #navbar-collapse-1.collapse.navbar-collapse
+      %ul#navigation.nav.navbar-nav.navbar-right
+        %li
+          %a.external{:href => "/"} Home
+        %li.active
+          %a.current{href: signup_path} Register

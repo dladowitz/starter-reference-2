@@ -1,0 +1,4 @@
+== Rails Reference Template
+
+I've abstracted some of the basic needs out of my last projects. This should get an app off the ground faster. 
+
